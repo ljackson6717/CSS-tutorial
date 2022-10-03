@@ -1,3 +1,9 @@
-h1{
-    color:red;
+div {
+    width: 100%;
+    max-width: 200px;
+    height: 100vh;
+    border : 1px solid black;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
 }

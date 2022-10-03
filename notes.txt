@@ -1,0 +1,21 @@
+Common CSS Properties
+- color : sets the color of the text
+    - set color:
+        - words: red, green, blue, cyan, etc.
+        - RGB: rgb(0, 255, 0) etc
+        - Hex: #ff0000 etc
+
+- background-color : sets background color of the text
+
+- width : sets the width of the element - best practice
+          is to set the width at 100% rather than pixels.
+          use max-width if you want to set limit.
+
+- height : use vh to set height
+
+- border : sets the border of an element
+            - 1px solid black; - go from there
+
+- font-size, font-weight, font-family
+        -   font-family: remember fall back fonts for browsers that don't support
+            some fonts.
