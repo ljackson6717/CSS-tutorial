@@ -88,3 +88,27 @@ Complex Properties
             - Sticky
                 - Sticks element to a permanent location on the page once it hits a
                   threshold.
+
+Media Queries
+    - What are media queries used for?
+        - to make a web page responsive
+    
+    - Common breakpoints:
+        - Mobile Phones
+            - 576px
+        
+        - Tablets:
+            - 768px
+        
+        - Desktops:
+            - 992px
+        
+        - Large Desktops:
+            - 1200px+
+    
+    - Syntax:
+        @media (max-width: ) {
+            div {
+                font-size: ;
+            }
+        }
