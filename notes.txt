@@ -112,3 +112,23 @@ Media Queries
                 font-size: ;
             }
         }
+
+Extras
+    - Pseudo Selectors
+        - 2 pseudo elements in CSS
+            - After
+            - Before
+    
+    - Create Animation
+        - @keyframes float {
+        0% {
+            transform: translateY(0);
+        }
+        100% {
+            transform: translateY(10px);
+        }
+    }
+    - button {
+        animation: float 2000ms infinite alternate-reverse;
+        transition: all 300ms;
+    }
