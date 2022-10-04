@@ -19,3 +19,27 @@ Common CSS Properties
 - font-size, font-weight, font-family
         -   font-family: remember fall back fonts for browsers that don't support
             some fonts.
+
+Specificity
+    - The prioritization of the styling of the element.
+    - When targeting a class, put a . before the class in the stylesheet
+        - e.g. .red
+    - classes are more specific than targeting an element
+    - you can only have 1 id per item per page
+    - use classes for everything except for sections. Use Ids for sections.
+    - writing !important next to a property will make the element the highest priority
+      on the page. --- try to avoid as much as possible.
+
+
+Styling CSS Elements
+    - Tag Name
+        - <div></div>
+        - div {color : red;}
+
+    - Class
+        - <div class="test"></div>
+        - .test {color : red;}
+    
+    - Id
+        - <div id="test"></div>
+        - #test {color : red;}
