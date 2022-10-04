@@ -43,3 +43,13 @@ Styling CSS Elements
     - Id
         - <div id="test"></div>
         - #test {color : red;}
+
+Box Model
+    - What is the box model?
+        - A container that consists of multiple different CSS properties
+            - content
+            - padding
+            - border
+            - margin
+        - Margin overlaps, while padding does not.
+        - Padding is often used to create space between content and the border.
